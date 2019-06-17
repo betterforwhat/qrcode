@@ -1,0 +1,8 @@
+.evaluation__bg {
+	margin-top: 24px;
+}
+
+.evaluation__result {
+	display: flex;
+	justify-content: center;
+}

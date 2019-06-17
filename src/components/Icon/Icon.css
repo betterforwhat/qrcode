@@ -1,0 +1,48 @@
+
+.icon__bg {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 60px;
+}
+
+.icon__bg + .icon__bg {
+	margin-left: 16px;
+}
+
+.icon {
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;	
+}
+
+.icon.comment {
+	background-image: url('/imgs/comment.svg');
+}
+
+.icon.thumb_up {
+	background-image: url('/imgs/thumb_up.svg');
+}
+
+.icon.thumb_down {
+	background-image: url('/imgs/thumb_down.svg');
+}
+
+.icon.monetization {
+	background-image: url('/imgs/monetization.svg');
+}
+
+.icon__desc {
+	margin-top: 16px;
+	font-size: 16px;
+	white-space: nowrap;
+}
+
+.icon__number {
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	margin-top: 4px;
+}

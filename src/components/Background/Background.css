@@ -1,0 +1,21 @@
+.background__bg {
+	position: absolute;
+	z-index: -10;
+	width: 100vw;
+	height: 40vh;
+	background-image: url('/imgs/apple.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.background__bg2 {
+	position: absolute;
+	z-index: -1;
+	width: 100vw;
+	height: 40vh;
+	background-color: rgba(0, 0, 0, .5);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
